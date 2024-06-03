@@ -14,6 +14,6 @@ lib.addCommand('vehiclenames', {
             end
         end
         local text = text .. 'end)'
-        SaveResourceFile(GetCurrentResourceName(), 'vehicle_names.txt', text, -1)
+        SaveResourceFile(GetCurrentResourceName(), 'vehicle_names.lua', text, -1)
     end)
 end)

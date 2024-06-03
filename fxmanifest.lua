@@ -9,6 +9,7 @@ shared_scripts {
 
 client_scripts {
     'client/main.lua',
+    'vehicle_names.lua'
 }
 
 server_scripts {
