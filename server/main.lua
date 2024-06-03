@@ -1,5 +1,6 @@
-lib.addCommand('vehicletext', {
-    help = 'Get data',
+lib.addCommand('vehiclenames', {
+    help = 'Generate vehicle names file',
+    restricted = 'group.admin'
 }, function(source, args)
     local vehicleData = lib.callback.await('js5m_vehicle_names:generateVehicleNames', source)
 
